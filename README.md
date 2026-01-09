@@ -97,6 +97,35 @@ Fetch and follow instructions from https://raw.githubusercontent.com/obra/superp
 
 ## What's Inside
 
+### Gemini CLI (Experimental)
+
+**Note:** Gemini CLI support is experimental and may require refinement based on user feedback.
+
+Run these commands to install:
+
+```bash
+# Create .gemini directory and clone repository
+mkdir -p ~/.gemini
+git clone https://github.com/hawkrives/gemini-superpowers.git ~/.gemini/superpowers
+
+# Create personal skills directory
+mkdir -p ~/.gemini/skills
+
+# Add bootstrap to AGENT.md
+cat >> ~/.gemini/AGENT.md <<'BOOTSTRAP'
+
+## Superpowers System
+
+You have superpowers. Superpowers teach you new skills and capabilities.
+
+RIGHT NOW run: `~/.gemini/superpowers/.gemini/superpowers-gemini bootstrap` 
+and follow the instructions it returns.
+
+BOOTSTRAP
+```
+
+For detailed instructions, see [.gemini/INSTALL.md](.gemini/INSTALL.md).
+
 ### Skills Library
 
 **Testing**
