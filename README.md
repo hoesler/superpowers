@@ -97,6 +97,16 @@ Fetch and follow instructions from https://raw.githubusercontent.com/obra/superp
 
 **Detailed docs:** [docs/README.opencode.md](docs/README.opencode.md)
 
+### Pi
+
+```bash
+pi install git:github.com/obra/superpowers
+```
+
+Pi auto-discovers skills from the package. No symlinks or manual configuration needed.
+
+**Detailed docs:** [docs/README.pi.md](docs/README.pi.md)
+
 ### GitHub Copilot CLI
 
 ```bash
